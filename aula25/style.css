@@ -1,0 +1,14 @@
+button {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    color: white;
+    
+}
+
+.off {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    color: white;
+}

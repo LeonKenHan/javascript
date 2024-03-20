@@ -1,6 +1,12 @@
-const carros = ["Gol", "Fusca", "Brasília", "Del Rey", "Chevete"];
-var tamanho = carros.length;
+function ativarContagem() {
+    document.getElementById('tempo').innerHTML = "Começou a contar!";
+    tempo = setTimeout(function () {
+          document.getElementById('tempo').innerHTML = "Executou o setTimeout";
+    }, 5000);
 
-for (let i = 0; i < tamanho; i++) {
-document.getElementById("teste").innerHTML += carros[i] + " - ";
+}
+
+function pararContagem() {
+    clearTimeout(tempo);
+    document.getElementById('tempo').innerHTML = "Parou a contagem";
 }
