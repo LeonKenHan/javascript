@@ -1,5 +1,5 @@
 * {
-    background-color: rgba(0, 0, 0, 0.911);
+    background-color: rgba(0, 0, 0, 0.952);
 }
 
 .site {
@@ -20,6 +20,7 @@
     height: 100px;
     line-height: 25px;
     z-index: 100;
+    background-color: rgba(0, 0, 0, 0.89);
 }
 
 .nav-netflix {
@@ -28,8 +29,13 @@
     font-weight: 600;
 }
 
+.nav-menu {
+    background-color: rgba(0, 0, 0, 0.89);;
+}
+
 .nav-menu ul {
     display: flex;
+ 
 }
 
 .nav-menu ul li{
@@ -37,4 +43,12 @@
     font-weight: 500;
     color: #fff;
     margin: 0 25px;
+}
+
+.name {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    z-index: 100;
 }
