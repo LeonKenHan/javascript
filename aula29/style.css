@@ -111,8 +111,3 @@ body{
 .btn.white-btn {
     background: rgba(255, 2, 2, 0.651);
 }
-
-img {
-    max-width: 100%;
-    height: auto;
-}
