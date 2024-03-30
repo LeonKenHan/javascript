@@ -57,7 +57,62 @@ body{
     border-bottom: 2px solid #fff;
 }
 
+.nav-button {
+    color: white;
+    font-size: 25px;
+    top: 500px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    line-height: 300px;
+    z-index: 100;
+
+}
+
+.nav-button .btn {
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    background: rgba(255,255,255, 0.4);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
 .net {
     color: white;
-    height: 85vh;
+    font-size: 25px;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 225px;
+    height: 78px;
+    line-height: 300px;
+    z-index: 100;
+
+}
+
+.level {
+    color: white;
+    font-size: 50px;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 530px;
+    height: 78px;
+    line-height: 700px;
+    z-index: 100;
+}
+
+.btn.white-btn {
+    background: rgba(255, 2, 2, 0.651);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
