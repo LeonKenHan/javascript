@@ -45,3 +45,7 @@ body {
 .link:hover, .active {
     border-bottom: 2px solid #fff;
 }
+
+.img {
+    background-image: url('aula29/arquivos/164e86461b7bf43593bb6f876f0c3553.jpg');
+}
