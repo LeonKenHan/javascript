@@ -6,7 +6,7 @@ body {
     margin:0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(233, 233, 233);
+    background: #862a36;
 }
 
 .wrapper {
@@ -26,26 +26,48 @@ body {
     z-index: 100;
 }
 
-.nav-menu ul {
-    display: flex;
+img {
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
 }
 
-.nav-menu ul li {
-    list-style-type: none;
-}
-
-.nav-menu ul li .link {
-    text-decoration: none;
+.nav-button .btn {
+    width: 130px;
+    height: 40px;
     font-weight: 500;
-    color: rgba(0, 0, 0, 0.849);
-    padding-bottom: 15px;
-    margin: 0 25px;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
 }
 
-.link:hover, .active {
-    border-bottom: 2px solid #fff;
+.btn:hover {
+    background: rgba(255, 255, 255, 0.3);
 }
 
-.img {
-    background-image: url('aula29/arquivos/164e86461b7bf43593bb6f876f0c3553.jpg');
+#registerBtn {
+    margin-left: 15px;
+}
+
+#numberoneBtn {
+    margin-left: 15px;
+}
+
+.btn.white-btn {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+
+h1 {
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 150vh;
+    height: 200px;
+    line-height: 15;
+    z-index: 100;
+    min-height: 110vh;
 }
