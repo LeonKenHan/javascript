@@ -141,3 +141,18 @@ p {
     min-height: 110vh;
     position: fixed;
 }
+
+h4 {
+    color: white;
+    font-size: 25px;
+    width: 164vh;
+    height: 325px;
+    line-height: 2;
+    z-index: 100;
+    min-height: 66vh;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
