@@ -76,7 +76,8 @@ h2 {
         text-align: center;
 }
 
-h3 {
+.carisma {
+    text-align: center;
     font-family: "Passion One", sans-serif;
         font-size: 30px;
         font-weight: 400;
@@ -90,4 +91,40 @@ h3 {
     align-items: center; /* Centraliza verticalmente */
     color: white;
     font-size: 30px;
+}
+
+.humano {
+    text-align: center;
+    font-family: "Passion One", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+        color: white;  
+        height: 100%;
+        min-height: 200px;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    color: white;
+    font-size: 30px;
+}
+
+.lideranca {
+    position: absolute; 
+    left: 4%;
+   border-radius: 10px;
+}
+
+.posicione {
+    position: absolute;
+    top: 20px; /* Distância do topo */
+    left: 20px; /* Distância da esquerda */
+}
+
+.oratoria { 
+    position: absolute;
+    right: 0;
+    left: 57%;
+    border-radius: 10px;
 }
